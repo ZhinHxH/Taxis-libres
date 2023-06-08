@@ -1,0 +1,23 @@
+#section-2 {
+    min-height: 850px;
+}
+
+.card-icono {
+    background-color: var(--color-bg-secundary);
+}
+
+.v-line{
+    border-left: thick solid var(--color-font-secondary);
+    height:60%;
+    left: 50%;
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    #section-2 {
+        min-height: 1450px;
+    }
+    .v-line {
+        display: none;
+    }
+}

@@ -1,0 +1,11 @@
+#section-3 {
+    min-height: 600px;
+    background-color: var(--color-bg-secundary);
+}
+
+
+@media screen and (max-width: 1150px) {
+    #section-3 {
+        min-height: 1250px;
+    }
+}

@@ -1,0 +1,25 @@
+#section-1{
+    background-color: var(--color-bg-primary);
+    min-height: 460px;
+}
+
+.contenedor-texto {
+    color: var(--color-font-secondary);
+    font-size: 1.2rem;
+}
+
+.contenedor-texto ul li {
+    list-style: disc;
+    margin-left: 2.5rem;
+}
+
+.img-container {
+    background: linear-gradient(rgba(228, 118, 125, 0.8), rgba(247, 172, 148, 0.8));
+    border-radius: 4rem;
+}
+
+@media screen and (max-width: 1025px) {
+    .img-container img{
+        display: none;
+    }
+}

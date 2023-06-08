@@ -1,0 +1,14 @@
+#header {
+    background-color: #001C50;
+}
+
+.panel-home{
+    /* min-height: 36.25rem; */
+    color: var(--color-font-primary);
+    background-image: url('../../../src/assets/images/panel2023.png');
+    background-size: cover;
+    background-repeat: none;
+    background-position: center ;
+}
+
+
